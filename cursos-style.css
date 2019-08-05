@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    height: 11vh;
+    justify-content: space-around;
+    border-bottom: 1px solid #AEADAD;
+    width: 100vw;
+    padding: 10px;
+}
+
+header nav a:hover{
+    border-bottom: 1px solid #4CA0FF;
+}
+
+header nav a{
+    color: #838383;
+    font-family: 'Roboto Slab', serif;
+    font-size: 11pt;
+    text-decoration: none;
+}
+
+img{
+    width: 8vw;
+}
+.menu{
+    
+    display: flex;
+    
+    width: 50vw;
+    justify-content: space-evenly;
+
+    
+}
+
+header button{
+    background-color: white;
+    color: #4CA0FF;
+    font-family: 'Roboto Slab', serif;
+    font-size: 10pt;
+    height: 7vh;
+    width: 10vw;
+    border-radius: 5px;
+    border: 2px solid #4CA0FF;
+    font-weight: bolder;
+
+    
+}
+
+main{
+    height: 55vh;
+    width: 100vw;
+}
+
+footer{
+   
+}
+
+footer nav a{
+    
+}
