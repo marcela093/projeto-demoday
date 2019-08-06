@@ -162,9 +162,6 @@ footer{
     width: 100%;
     height: 20vh;
     position: relative;
-
-
-    
 }
 
 .girlfooter{
@@ -173,30 +170,41 @@ footer{
     width: 9.3vw;
     position: absolute;
     height: 1;
+    padding-left: 20px;
 }
 
 .footer{
     display: flex;
     height: auto;
-    width: 50%;
+    width: 30%;
     align-items: center;
-    justify-content: space-evenly;
-    
-}
-
-.menufooter{
-    border-left: 2px solid white;
+    justify-content: flex-end;
+    position: relative;
 }
 
 footer h2{
+    border-right: 2px solid white;
+    line-height: 70px;
+    padding-right: 20px;
     color: white;
     font-size: 25pt;
+}
+
+.menufooter{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 footer a{
     color: white;
     font-family: 'Roboto Slab', serif;
     text-decoration: none;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
 }
 
 footer p{
@@ -210,17 +218,16 @@ footer img{
 }
 
 .redes{
-    display: inline-block;
-    align-items: center;
-    height: auto;
-    width: 50%;
-    justify-content: flex-end;
-    
-}
-
-footer nav{
     display: flex;
+    align-items: flex-end;
+    height: auto;
+    width: 65%;
+    justify-content: center;
+    height: 20vh;
     flex-direction: column;
 }
+
+
+
 
 
