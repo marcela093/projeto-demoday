@@ -6,35 +6,40 @@ body{
 header{
     align-items: center;
     display: flex;
-    height: 11vh;
+    height: 14vh;
     justify-content: space-around;
     border-bottom: 1px solid #AEADAD;
-    width: 100vw;
-    padding: 10px;
+    width: 100%;
 }
 
 header nav a:hover{
-    border-bottom: 1px solid #4CA0FF;
+    border-bottom: 2px solid #4CA0FF;
+    color: #4CA0FF;
+    font-weight: bold;
+    line-height: 14.2vh;
+    
+    
 }
 
 header nav a{
     color: #838383;
     font-family: 'Roboto Slab', serif;
-    font-size: 11pt;
+    font-size: 15px;
     text-decoration: none;
+    
 }
 
 img{
     width: 8vw;
 }
+
 .menu{
     
     display: flex;
-    
+    height: 11vh;
     width: 50vw;
     justify-content: space-evenly;
-
-    
+    align-items: center;
 }
 
 header button{
@@ -47,19 +52,175 @@ header button{
     border-radius: 5px;
     border: 2px solid #4CA0FF;
     font-weight: bolder;
+}
 
+header button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #4CA0FF;
     
 }
 
 main{
-    height: 55vh;
-    width: 100vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    width: 100%;
+}
+
+h1{
+    border-bottom: 5px solid #4CA0FF;
+    color: #374760;
+    font-family: 'Ramaraja', serif;
+    font-size: 50pt;
+    font-weight: normal;
+    line-height: 70px;
+}
+
+.cursos{
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    height: 19vh;
+    
+    width: 50vw;
+}
+
+main p{
+    color: #838383;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15pt;
+}
+main div{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    justify-content: center;
+    width: 50vw;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    justify-content: center;
+}
+
+.front{
+    align-items: center;
+    background-color: #E5E5E5;
+    border-radius: 20px;
+    display: flex;
+    height: 15vw;
+    justify-content: flex-start;
+    width: 20vw;
+}
+
+.back{
+    align-items: center;
+    background-color: #E5E5E5;
+    border-radius: 20px;
+    display: flex;
+    height: 15vw;
+    justify-content: flex-start;
+    width: 20vw;
+}
+
+.foto{
+    align-items: center;
+    display: flex;
+    width: 20vw;
+    height: 35vh;
+    background-color: #4CA0FF;
+    justify-content: flex-start;
+}
+
+
+main a{
+    color: #838383;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    
+}
+main h3{
+    color: #4CA0FF;
+    font-family: 'Roboto Slab', serif;
+}
+
+.menina{
+    height: 35vh;
+    width: 20vw;
 }
 
 footer{
-   
-}
+    align-items: center;
+    background-color: #271A5B;
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    position: relative;
 
-footer nav a{
+
     
 }
+
+.girlfooter{
+    bottom: 0;
+    height: auto;
+    width: 9.3vw;
+    position: absolute;
+    height: 1;
+}
+
+.footer{
+    display: flex;
+    height: auto;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.menufooter{
+    border-left: 2px solid white;
+}
+
+footer h2{
+    color: white;
+    font-size: 25pt;
+}
+
+footer a{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+}
+
+footer p{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+footer img{
+    height: auto;
+    width: 30px;
+}
+
+.redes{
+    display: inline-block;
+    align-items: center;
+    height: auto;
+    width: 50%;
+    justify-content: flex-end;
+    
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+}
+
+
