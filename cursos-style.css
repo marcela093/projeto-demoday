@@ -5,10 +5,10 @@ body{
 
 header{
     align-items: center;
-    display: flex;
-    height: 14vh;
-    justify-content: space-around;
     border-bottom: 1px solid #AEADAD;
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
     width: 100%;
 }
 
@@ -16,9 +16,7 @@ header nav a:hover{
     border-bottom: 2px solid #4CA0FF;
     color: #4CA0FF;
     font-weight: bold;
-    line-height: 14.2vh;
-    
-    
+    line-height: 10.3vh;
 }
 
 header nav a{
@@ -26,7 +24,6 @@ header nav a{
     font-family: 'Roboto Slab', serif;
     font-size: 15px;
     text-decoration: none;
-    
 }
 
 img{
@@ -34,31 +31,29 @@ img{
 }
 
 .menu{
-    
+    align-items: center;
     display: flex;
     height: 11vh;
-    width: 50vw;
     justify-content: space-evenly;
-    align-items: center;
+    width: 50vw;
 }
 
 header button{
     background-color: white;
+    border-radius: 5px;
+    border: 2px solid #4CA0FF;
     color: #4CA0FF;
     font-family: 'Roboto Slab', serif;
     font-size: 10pt;
+    font-weight: bolder;
     height: 7vh;
     width: 10vw;
-    border-radius: 5px;
-    border: 2px solid #4CA0FF;
-    font-weight: bolder;
 }
 
 header button:hover{
+    background-color: #4CA0FF;
     cursor: pointer;
     color: white;
-    background-color: #4CA0FF;
-    
 }
 
 main{
@@ -82,9 +77,8 @@ h1{
 .cursos{
     align-items: flex-start;
     display: flex;
+    height: 15vh;
     justify-content: center;
-    height: 19vh;
-    
     width: 50vw;
 }
 
@@ -92,7 +86,10 @@ main p{
     color: #838383;
     font-family: 'Roboto Slab', serif;
     font-size: 15pt;
+    margin: 0;
+    
 }
+
 main div{
     align-items: flex-start;
     display: flex;
@@ -105,8 +102,9 @@ main div{
 .info{
     display: flex;
     flex-direction: row;
-    height: 40vh;
+    height: 30vh;
     justify-content: center;
+    width: 55vw;
 }
 
 .front{
@@ -115,7 +113,7 @@ main div{
     border-radius: 20px;
     display: flex;
     height: 15vw;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     width: 20vw;
 }
 
@@ -125,29 +123,34 @@ main div{
     border-radius: 20px;
     display: flex;
     height: 15vw;
-    justify-content: flex-start;
+    justify-content: space-evenly;;
     width: 20vw;
 }
 
 .foto{
     align-items: center;
-    display: flex;
-    width: 20vw;
-    height: 35vh;
     background-color: #4CA0FF;
+    display: flex;
+    height: 35vh;
     justify-content: flex-start;
+    width: 20vw;
 }
-
 
 main a{
     color: #838383;
     font-family: 'Roboto Slab', serif;
+    font-size: 10pt;
     text-decoration: none;
-    
 }
+
+main a:hover{
+    font-weight: bold;
+}
+
 main h3{
     color: #4CA0FF;
     font-family: 'Roboto Slab', serif;
+    margin: 0;
 }
 
 .menina{
@@ -159,41 +162,41 @@ footer{
     align-items: center;
     background-color: #271A5B;
     display: flex;
-    width: 100%;
     height: 20vh;
     position: relative;
+    width: 100%;
 }
 
 .girlfooter{
     bottom: 0;
     height: auto;
-    width: 9.3vw;
     position: absolute;
-    height: 1;
     padding-left: 20px;
+    width: 9vw;
 }
 
 .footer{
-    display: flex;
-    height: auto;
-    width: 30%;
     align-items: center;
+    display: flex;
+    height: 15vh;
+    font-size: 10pt;
     justify-content: flex-end;
     position: relative;
+    width: 30%;
 }
 
 footer h2{
-    border-right: 2px solid white;
-    line-height: 70px;
-    padding-right: 20px;
+    border-right: 1px solid white;
     color: white;
     font-size: 25pt;
+    line-height: 70px;
+    padding-right: 20px;
 }
 
 .menufooter{
-    width: 30%;
     display: flex;
     justify-content: flex-end;
+    width: 30%;
 }
 
 footer a{
@@ -214,18 +217,23 @@ footer p{
 
 footer img{
     height: auto;
-    width: 30px;
+    width: 25px;
 }
 
 .redes{
-    display: flex;
     align-items: flex-end;
-    height: auto;
-    width: 65%;
-    justify-content: center;
-    height: 20vh;
+    display: flex;
     flex-direction: column;
+    font-size: 12pt;
+    height: auto;
+    justify-content: center;
+    width: 65%;
 }
+
+footer div{
+    width: 20%;
+}
+
 
 
 
