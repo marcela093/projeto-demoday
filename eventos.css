@@ -60,7 +60,7 @@ main{
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    
     justify-content: center;
     width: 100%;
 }
@@ -94,4 +94,66 @@ main div{
     flex-direction: column;
     justify-content: center;
     width: 50vw;
+}
+
+.paragrafo{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50vw;
+}
+.calendario{
+    display: flex;
+    align-items: center;
+}
+
+main img{
+    height: auto;
+    width: 25vw;
+}
+
+section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.info{
+    background-color: #E5E5E5;
+    border-radius: 20px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    
+}
+
+section h3{
+    color: #4CA0FF;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 0;
+}
+
+section p{
+    color: #838383;
+    font-family: 'Roboto Slab', serif;
+}
+
+section a{
+    text-decoration: none;
+    color: #838383;
+}
+
+section a:hover{
+    font-weight: bold;
 }
