@@ -19,5 +19,8 @@ from app.views import app
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', app)
+    path('', index),
+    path('depoimentos/', depoimentos),
+    path('cursos/', cursos),
+    path('eventos/', eventos),
 ]
