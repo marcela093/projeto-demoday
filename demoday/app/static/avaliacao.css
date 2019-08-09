@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+/*Conteúdo*/
+.pagina-avaliacao .article-avaliacao{
+    margin: 76px 200px;
+    padding: 60px 120px;
+}
+
+.pagina-avaliacao .article-avaliacao h2{
+    font-family: 'Ramaraja', serif;
+    font-weight: normal;
+    font-size: 70px;
+    color: #374760;
+    line-height: 70px;
+}
+
+.pagina-avaliacao .article-avaliacao h2::after{
+    content: " ";
+    display: block;
+    border: 3px solid #4CA0FF;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.pagina-avaliacao .article-avaliacao h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.formulario label span{
+    margin-bottom: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.formulario .form-right-avaliacao{
+    margin-top: 15px;
+}
+
+.formulario .form-left-avaliacao{
+    margin-top: 15px;
+}
+
+.formulario .tracado-lateral-azul{
+    border-right: 2px solid #4CA0FF;
+    padding-right: 120px
+}
+
+.formulario .form-left-avaliacao .nome-empresa{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #4CA0FF;
+    width: 200px;
+}
+
+.formulario .form-left-avaliacao .nome-empresa::placeholder{
+    font-family: 'Roboto Slab', serif;
+    opacity: .5;
+}
+
+.formulario .form-left-avaliacao #ultimoItem{
+    margin-top: 30px
+}

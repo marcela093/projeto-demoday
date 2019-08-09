@@ -1,0 +1,242 @@
+.pagina-depoimentos article{
+    margin: 76px 200px;
+    padding: 60px 120px;
+}
+
+.pagina-depoimentos #avaliacao{
+    margin-bottom: 60px;
+}
+
+.pagina-depoimentos .novos-depoimentos{
+    padding: 0 120px;
+}
+
+.pagina-depoimentos article h2{
+    font-family: 'Ramaraja', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    color: #374760;
+    line-height: 70px;
+}
+
+.pagina-depoimentos article h2::after{
+    content: " ";
+    display: block;
+    border: 3px solid #4CA0FF;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.pagina-depoimentos article h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.pagina-depoimentos .nome-empresa{
+    height: 50px;
+    width: 500px;
+    border: none;
+    background-color: #E1DCDC;
+}
+
+.pagina-depoimentos .nome-empresa::placeholder{
+    font-family: 'Roboto Slab', serif;
+    padding: 20px;
+}
+
+.pagina-depoimentos .botao-lupa{
+    float: right;;
+    margin-right: 161px;
+    background-color: #271A5B;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-image: url('../img/lupa.svg');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: -9999px;
+}
+
+.pagina-depoimentos .depoimentos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    background-color: #F9F9F9;
+    height: 600px;
+    width: 100%;
+}
+
+/*2ª Linha*/
+
+.pagina-depoimentos .avaliacao-empresa{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+} 
+
+.pagina-depoimentos .avaliacao-empresa .img-logo{
+    height: 200px;
+    width: auto;
+    background-color: #EDEDED;
+    margin-right: 30px;
+}
+
+.pagina-depoimentos .avaliacao-empresa .avaliacao h4{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: #3F92F2;
+}
+
+.pagina-depoimentos .avaliacao-empresa .avaliacao .site{
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+
+.pagina-depoimentos .avaliacao-empresa .avaliacao .p-avaliacao{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 10px;
+}
+
+.pagina-depoimentos .avaliacao-empresa .bullet{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagina-depoimentos .avaliacao-empresa .nota{
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #4CA0FF;
+    margin-right: 15px;
+}
+
+.pagina-depoimentos .avaliacao-empresa .rate{
+    width: 15px;
+    height: auto;
+    opacity: .3;
+    margin-right: 5px;
+}
+
+.pagina-depoimentos .avaliacao-empresa .mulheres{
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 10px;
+    border-left: solid 1px rgba(0, 0, 0, 0.7);
+    padding-left: 15px;
+}
+/*3º com Depoimentos*/
+
+.pagina-depoimentos .depoimentos .flex-conteiner{
+    width: 55%;
+    background-color: white;
+    margin-right: 50px;
+    padding: 70px 25px;
+    font-size: 15px;
+    position: relative;
+}
+
+.pagina-depoimentos .depoimentos .flex-conteiner img{
+    height: 80px;
+    width: auto;
+    position: absolute;
+    top: 0;
+    bottom: 380px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.pagina-depoimentos .depoimentos .flex-conteiner .pseudo{
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.400);
+} 
+
+.pagina-depoimentos .depoimentos .flex-conteiner .pseudo::before{
+    content: " ";
+    display: block;
+    border: 0.8px solid rgba(0, 0, 0, 0.100);
+    width: 300px;    
+    margin-bottom: 10px;
+}
+
+.pagina-depoimentos .depoimentos .flex-conteiner .pseudo::after{
+    content: " ";
+    display: block;
+    border: 0.8px solid rgba(0, 0, 0, 0.100);
+    width: 300px;    
+    margin: 10px 0;
+}
+
+.pagina-depoimentos .depoimentos .flex-conteiner h4{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: #374760;
+}
+
+.pagina-depoimentos .depoimentos .flex-conteiner .sem-pseudo{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Roboto Slab', serif;
+    color: rgba(0, 0, 0, 0.400);    ]
+}
+
+.pagina-depoimentos .nav-empresas{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 300px;
+    width: auto;
+    padding-right: 20px;
+}
+
+.pagina-depoimentos .nav-empresas .mais-avaliadas,
+.pagina-depoimentos .nav-empresas .mais-recentes{
+    margin: 0 50px;
+}
+
+.pagina-depoimentos .nav-empresas .mais-recentes p, 
+.pagina-depoimentos .nav-empresas .mais-avaliadas p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #374760;
+}
+
+.pagina-depoimentos .nav-empresas .mais-recentes ul, 
+.pagina-depoimentos .nav-empresas .mais-avaliadas ul{
+    margin-top: 10px;
+}
+
+.pagina-depoimentos .nav-empresas .mais-recentes li, 
+.pagina-depoimentos .nav-empresas .mais-avaliadas li{
+    list-style: none;
+    text-align: left;
+}
+
+.pagina-depoimentos .nav-empresas .mais-recentes a, 
+.pagina-depoimentos .nav-empresas .mais-avaliadas a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.500);
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+

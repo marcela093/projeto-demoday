@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+/*Header*/
+header{
+    background-color: white;
+    border-bottom: 1px solid rgba(174, 173, 173, 0.78);
+    display: flex;
+    height: 92px;
+    width: 100%;    
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 51px;
+}
+
+header h1{
+    cursor: pointer;
+}
+
+
+header nav{
+    text-align: center; 
+}
+
+header nav li{
+    display: inline;
+    list-style-type: none;
+}
+
+header nav ul li a{    
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    color: #838383;
+    margin-right: 49px;
+    display: inline-block;
+    height: 92px;
+    vertical-align: middle;
+    line-height: 92px;
+}
+
+header nav ul li a:hover{
+    border-bottom: 2px solid #4CA0FF; 
+    color: #4CA0FF;    
+    font-weight: bold;
+    height: 92px;
+}
+
+.button{
+    background: #FFFFFF;
+    border: 2px solid #4CA0FF;
+    box-sizing: border-box;
+    border-radius: 5px; 
+    width: 150px;
+    height: 44px;
+    color: #4CA0FF;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+.button a{
+    text-decoration: none;
+    color: #4CA0FF;    
+}
+
+.button:hover{
+    background-color: #4CA0FF;
+    color: white;
+    width: 160px;
+    height: 54px;
+    transition: .2s;
+}
+
+/*Conteúdo*/
+.pagina-login article{
+    background-color: rgba(196, 196, 196, 0.1);
+    border-radius: 48px;
+    margin: 76px 200px;
+    padding: 60px 120px;
+}
+
+.pagina-login article h2{
+    font-family: 'Ramaraja', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    color: #374760;
+    line-height: 70px;
+}
+
+.pagina-login article h2::after{
+    content: " ";
+    display: block;
+    border: 3px solid #4CA0FF;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.pagina-login article h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.form{
+    display: flex;
+    padding-right: 5%;
+    justify-content: space-between;
+}
+
+.form input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #4CA0FF;
+    width: 200px;
+    background-color: transparent;    
+}
+
+.form label p{
+    margin-top: 68px;
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.termos-de-uso{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    align-items: center;
+}
+
+.termos-de-uso p{
+    margin-left: 15px; 
+    color: rgba(0, 0, 0, 0.404);
+}
+
+.termos-de-uso a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.704);
+}
+
+.button-footer{
+    background: #4CA0FF;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 5px; 
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.footer-p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.704);
+}
+
+.footer-p a{
+    text-decoration: none;
+    color: #4CA0FF;
+    font-weight: bold;
+}
+
+/*Footer*/
+.menina{
+    height: 35vh;
+    width: 20vw;
+}
+
+footer{
+    align-items: center;
+    background-color: #271A5B;
+    display: flex;
+    height: 20vh;
+    position: relative;
+    width: 100%;
+}
+
+.girlfooter{
+    bottom: 45px;
+    height: auto;
+    position: absolute;
+    padding-left: 20px;
+    width: 12vw;
+}
+
+.footer{
+    align-items: center;
+    display: flex;
+    height: 15vh;
+    font-size: 10pt;
+    justify-content: flex-end;
+    position: relative;
+    width: 30%;
+}
+
+footer h2{
+    border-right: 1px solid white;
+    color: white;
+    font-size: 25pt;
+    line-height: 70px;
+    padding-right: 20px;
+}
+
+.menufooter{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+}
+
+footer a{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+}
+
+footer p{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+footer img{
+    height: auto;
+    width: 25px;
+}
+
+.redes{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    font-size: 12pt;
+    height: auto;
+    justify-content: center;
+    width: 65%;
+}
+
+.redes p{
+    margin-bottom: 10px;
+}
+
+.redes .sociais img{
+    margin-left: 10px;
+}
+
+footer div{
+    width: 20%;
+}
