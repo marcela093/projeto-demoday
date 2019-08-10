@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -20,91 +20,100 @@
             <div><a class="roboto cinza-escuro" href="">Depoimentos</a></div>   
         </div>
         <button class="roboto">Cadastre-se</button>
-    </header>    
+    </header>     -->
+    {% extends 'base.html' %}
+    <!-- {% load static %} -->
 
-    <div id="frase">
-        <h1 class="titulo azul fz7">&ltGirls<span class="titulo cinza-claro fz7">can</span>Code/&gt</h1>
-    </div>
-    <div style="margin-bottom: 25px">    
-        <span class="roboto cinza-escuro" style="font-size: 20px">O projeto que reúne conteúdo para te mostrar que o mundo da tecnologia também pertence às mulheres.</span>
-    </div>
+    {% block extra_head %}
+        <link rel="stylesheet" href="{% static '../static/style.css' %}">
+    {% endblock %}
 
-    <img src="../static/images/mulher1.png" alt="mulher com computador" style="margin-bottom: -55px; margin-top: 100px">
-
-    <main>
-        <h1 class="titulo azul fz5" style="padding-top: 100px; margin-bottom: 100px">O Projeto</h1>
-        
-        <div class="flex">
-            <a href="http://" target="_blank">
-                <div class="item">
-                    <div class="item-quadrado" style="background-color: #BFF9FF"></div>
-                    <div class="item-texto">
-                        <span class="titulo azul fz1">Eventos</span>
-                        <br>
-                        <span class="roboto cinza-escuro">Meetups e outros eventos para compartilhar experiências e fazer networking.</span>
-                    </div>   
-                </div>
-            </a>
-
-            <a href="http://" target="_blank">
-                <div class="item">
-                        <div class="item-quadrado" style="background-color: #FFCE00"></div>
-                        <div class="item-texto">
-                            <span class="titulo azul fz1">Compartilhe</span>
-                            <br>
-                            <span class="roboto cinza-escuro">Compartilhe como é trabalhar na área de TI. Sua empresa é bacana? Indicaria para outras mulheres?.</span>
-                        </div>   
-                </div>
-            </a>
-
+    {% block content %}
+    <div class="zoom80">
+        <div id="frase">
+            <h1 class="titulo azul fz7">&ltGirls<span class="titulo cinza-claro fz7">can</span>Code/&gt</h1>
+        </div>
+        <div style="margin-bottom: 25px">    
+            <span class="roboto cinza-escuro" style="font-size: 20px">O projeto que reúne conteúdo para te mostrar que o mundo da tecnologia também pertence às mulheres.</span>
+        </div>
+    
+        <img src="../static/images/mulher1.png" alt="mulher com computador" style="margin-bottom: -55px; margin-top: 100px">
+    
+        <main>
+            <h1 class="titulo azul fz5" style="padding-top: 100px; margin-bottom: 100px">O Projeto</h1>
+            
+            <div class="flex-style>
                 <a href="http://" target="_blank">
                     <div class="item">
-                            <div class="item-quadrado" style="background-color: #509EFA"></div>
+                        <div class="item-quadrado" style="background-color: #BFF9FF"></div>
+                        <div class="item-texto">
+                            <span class="titulo azul fz1">Eventos</span>
+                            <br>
+                            <span class="roboto cinza-escuro">Meetups e outros eventos para compartilhar experiências e fazer networking.</span>
+                        </div>   
+                    </div>
+                </a>
+    
+                <a href="http://" target="_blank">
+                    <div class="item">
+                            <div class="item-quadrado" style="background-color: #FFCE00"></div>
                             <div class="item-texto">
-                                <span class="titulo azul fz1">Cursos</span>
+                                <span class="titulo azul fz1">Compartilhe</span>
                                 <br>
-                                <span class="roboto cinza-escuro">Aqui você encontra a biblioteca de cursos que indicamos para que você comece a aprender a programar!.</span>
+                                <span class="roboto cinza-escuro">Compartilhe como é trabalhar na área de TI. Sua empresa é bacana? Indicaria para outras mulheres?.</span>
                             </div>   
                     </div>
                 </a>
-                       
-        </div>        
-    </main>
-
-    <article class="flex">
-
-        <div id="mulheres-inspo">
-            <div class="flex" style="background-color: rgba(191, 249, 255, 0.5); height: 200px; width: 100%"> 
-                <div class="flex" style="align-items: center; flex-direction: column">
-                    <p class="titulo azul fz5">Ada Lovelace</p>
-                    <p class="roboto cinza-escuro">10 de dezembro, 1815 - 27 de novembro, 1852</p>
-                </div>
-            </div>
-            <div id="ada-lovelace"></div>
-            <p class="roboto cinza-escuro" style="font-size: 20px; text-align: justify; margin: 15px 75px 50px">
-                Diva da programação, já descrevia as operações lógicas de uma máquina mais de um século antes de existir o computador como entendemos hoje. Filha do romântico Lord Byron e confinada a uma sociedade que impedia que mulheres estudassem em universidades, Ada apaixonou-se pela matemática - e era brilhante. Trocou intensamente cartas com Charles Babbage, idealizador da Máquina Analítica e publicou artigos (assinados somente com suas iniciais) que expandiam as fronteiras do processamento de informações.
-            </p>
-
-        </div>
-        
-        <img id="mulher-celular" src="../static/images/mulher-celular.png" alt="mulher com celular">
-        <div class="texto-inspo">
-            <h2 class="titulo fz5 amarelo">As mulheres que inspiram</h2>
-            <span class="roboto branco">A história do mundo foi contada pelos homens. Basta lembrar quantas inventoras, artistas que  você conhece.  Mas isso nunca significou que as mulheres não deram importantes contribuições a todos os campos do conhecimento.</span>
-        </div>
-    </article>
-
-    <section class="flex" style="flex-direction: column">
-        <h2 class="titulo azul fz5">Se interessou?</h2>
-        <div class="linha-azul"></div>
-        <span class="roboto cinza-escuro">Cadastre-se na nossa newsletter para ficar por dentro das novidades, é rapidinho!</span>
-        <br>
-        <div class="flex" style="box-shadow: 0px 4px 15px rgba(148, 53, 53, 0.25)">
-            <input class="roboto cinza-escuro" type="email" value="Insira seu e-mail">
-            <button class="roboto branco" type="submit">Enviar</button>
-        </div>
-    </section>
     
+                    <a href="http://" target="_blank">
+                        <div class="item">
+                                <div class="item-quadrado" style="background-color: #509EFA"></div>
+                                <div class="item-texto">
+                                    <span class="titulo azul fz1">Cursos</span>
+                                    <br>
+                                    <span class="roboto cinza-escuro">Aqui você encontra a biblioteca de cursos que indicamos para que você comece a aprender a programar!.</span>
+                                </div>   
+                        </div>
+                    </a>
+                           
+            </div>        
+        </main>
+    
+        <article class="flex-style">
+    
+            <div id="mulheres-inspo">
+                <div class="flex-style" style="background-color: rgba(191, 249, 255, 0.5); height: 200px; width: 100%"> 
+                    <div class="flex-style" style="align-items: center; flex-direction: column">
+                        <p class="titulo azul fz5">Ada Lovelace</p>
+                        <p class="roboto cinza-escuro">10 de dezembro, 1815 - 27 de novembro, 1852</p>
+                    </div>
+                </div>
+                <div id="ada-lovelace"></div>
+                <p class="roboto cinza-escuro" style="font-size: 20px; text-align: justify; margin: 15px 75px 50px">
+                    Diva da programação, já descrevia as operações lógicas de uma máquina mais de um século antes de existir o computador como entendemos hoje. Filha do romântico Lord Byron e confinada a uma sociedade que impedia que mulheres estudassem em universidades, Ada apaixonou-se pela matemática - e era brilhante. Trocou intensamente cartas com Charles Babbage, idealizador da Máquina Analítica e publicou artigos (assinados somente com suas iniciais) que expandiam as fronteiras do processamento de informações.
+                </p>
+    
+            </div>
+            
+            <img id="mulher-celular" src="../static/images/mulher-celular.png" alt="mulher com celular">
+            <div class="texto-inspo">
+                <h2 class="titulo fz5 amarelo">As mulheres que inspiram</h2>
+                <span class="roboto branco">A história do mundo foi contada pelos homens. Basta lembrar quantas inventoras, artistas que  você conhece.  Mas isso nunca significou que as mulheres não deram importantes contribuições a todos os campos do conhecimento.</span>
+            </div>
+        </article>
+    
+        <section class="flex-style" style="flex-direction: column">
+            <h2 class="titulo azul fz5">Se interessou?</h2>
+            <div class="linha-azul"></div>
+            <span class="roboto cinza-escuro">Cadastre-se na nossa newsletter para ficar por dentro das novidades, é rapidinho!</span>
+            <br>
+            <div class="flex-style" style="box-shadow: 0px 4px 15px rgba(148, 53, 53, 0.25)">
+                <input class="roboto cinza-escuro" type="email" value="Insira seu e-mail">
+                <button class="roboto branco" type="submit">Enviar</button>
+            </div>
+        </section>
+    </div>
+    {% endblock %}
 
     <!-- <footer class="flex">
         <img src="../static/images/mulher-footer.png" alt="mulher sentada" class="above">
@@ -134,5 +143,5 @@
         </div>
     </footer> -->
 
-</body>
-</html>
+<!-- </body> -->
+<!-- </html> -->

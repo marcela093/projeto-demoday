@@ -1,10 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     text-align: center;
-    color: #121212;
-    zoom: 80%;
+    /* zoom: 80%; */
 }
 a {
     text-decoration: none;
@@ -52,7 +48,7 @@ h4 {
 .roboto {
     font-family: 'Roboto Slab', serif;
 }
-header {
+/* header {
    background-color:white;
    border-bottom: 2px solid #AEADAD;
    height: 80px;
@@ -93,7 +89,7 @@ header div {
 }
 header div div:hover {
     border-bottom: 2px solid #4CA0FF;
-}
+} */
 #frase {
     /* margin-left: 50px;
     margin-top: 20px; */
@@ -135,7 +131,7 @@ main {
     width: 100%; 
     border-radius: 10px;
 }
-.flex {
+.flex-style {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -145,7 +141,7 @@ section {
     background-color: #E5E5E5;
     height: 500px;
 }
-footer {
+/* footer {
     height: 150px;
     background-color: #271A5B;
     position: relative;
@@ -168,7 +164,7 @@ footer {
 .footer-logo-wrapper {
     display: flex;
     justify-content: center;
-}
+} */
 article {
     background-color: #271A5B;
     height: 900px;
