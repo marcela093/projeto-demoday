@@ -1,0 +1,74 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700+Ramaraja&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="../static/login.css">
+    <link rel="stylesheet" href="../static/depoimentos.css">
+    <link rel="stylesheet" href="../static/style.css"> -->
+    <link rel="stylesheet" href="../static/base.css">
+    <title>&ltGirlscanCode/&gt</title>
+</head>
+<!-- Header -->
+<body>
+    <header>
+        <h1>
+            <img src="../static/images/logo_gcc.svg" alt="Logo Girls can Code">
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="/index/">Início</a></li>
+                <li><a href="/cursos/">Por onde começar?</a></li>
+                <li><a href="/eventos/">Eventos</a></li>
+                <li><a href="/depoimentos/">Depoimentos</a></li>
+            </ul>
+        </nav>
+        <button class="button"> 
+            <a href="/login/">Cadastre-se</a>
+        </button>
+    </header>
+<!-- Conteúdo -->
+    {% block content %}
+    {% endblock %}
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<!-- Footer -->
+    <footer class="flex">
+        <img src="../static/images/mulher-footer.png" alt="mulher sentada" class="above">
+        <div class="footer-logo-wrapper zoom80">    
+            <div id="gcc-footer"><span class="ramaraja branco fz4">&ltgcc/&gt</span></div>
+            <div class="roboto branco p-footer">
+                <p>O Projeto</p>            
+                <p>Mulheres+</p>            
+                <p>Eventos</p>            
+                <p>Cursos</p>            
+            </div>
+        </div>
+        <div class="padding-right">
+            <span class="roboto branco acompanhe">Acompanhe o &ltgcc/&gt nas redes sociais</span>
+            <div>
+                    <a href="#" target="_blank">
+                        <img src="../static/images/twitter.png" alt="twitter icon">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="../static/images/facebook.png" alt="facebook icon">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="../static/images/instagram.png" alt="instagram icon">
+                    </a>
+            </div>
+        </div>
+    </footer>
+</body>    

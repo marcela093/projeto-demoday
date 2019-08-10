@@ -22,3 +22,6 @@ def avaliacao(request):
     
 def login(request):
     return render(request, 'login.html')
+    
+def base(request):
+    return render(request, 'base.html')

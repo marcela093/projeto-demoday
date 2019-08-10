@@ -1,10 +1,9 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;    
 }
-/*Header*/
-header{
+header {
     background-color: white;
     border-bottom: 1px solid rgba(174, 173, 173, 0.78);
     display: flex;
@@ -14,21 +13,16 @@ header{
     justify-content: space-between;
     padding: 10px 51px;
 }
-
-header h1{
+header h1 {
     cursor: pointer;
 }
-
-
 header nav{
     text-align: center; 
 }
-
 header nav li{
     display: inline;
     list-style-type: none;
 }
-
 header nav ul li a{    
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
@@ -40,14 +34,12 @@ header nav ul li a{
     vertical-align: middle;
     line-height: 92px;
 }
-
 header nav ul li a:hover{
     border-bottom: 2px solid #4CA0FF; 
     color: #4CA0FF;    
     font-weight: bold;
     height: 92px;
 }
-
 .button{
     background: #FFFFFF;
     border: 2px solid #4CA0FF;
@@ -59,12 +51,10 @@ header nav ul li a:hover{
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
 }
-
 .button a{
     text-decoration: none;
     color: #4CA0FF;    
 }
-
 .button:hover{
     background-color: #4CA0FF;
     color: white;
