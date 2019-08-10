@@ -1,35 +1,3 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-
-header{
-    align-items: center;
-    border-bottom: 1px solid #AEADAD;
-    display: flex;
-    height: 10vh;
-    justify-content: space-around;
-    width: 100%;
-}
-
-header nav a:hover{
-    border-bottom: 2px solid #4CA0FF;
-    color: #4CA0FF;
-    font-weight: bold;
-    line-height: 10.3vh;
-}
-
-header nav a{
-    color: #838383;
-    font-family: 'Roboto Slab', serif;
-    font-size: 15px;
-    text-decoration: none;
-}
-
-img{
-    width: 8vw;
-}
-
 .menu{
     align-items: center;
     display: flex;
@@ -37,25 +5,6 @@ img{
     justify-content: space-evenly;
     width: 50vw;
 }
-
-header button{
-    background-color: white;
-    border-radius: 5px;
-    border: 2px solid #4CA0FF;
-    color: #4CA0FF;
-    font-family: 'Roboto Slab', serif;
-    font-size: 10pt;
-    font-weight: bolder;
-    height: 7vh;
-    width: 10vw;
-}
-
-header button:hover{
-    background-color: #4CA0FF;
-    cursor: pointer;
-    color: white;
-}
-
 main{
     align-items: center;
     display: flex;
@@ -64,7 +13,6 @@ main{
     justify-content: center;
     width: 100%;
 }
-
 h1{
     border-bottom: 5px solid #4CA0FF;
     color: #374760;
@@ -73,7 +21,6 @@ h1{
     font-weight: normal;
     line-height: 70px;
 }
-
 .cursos{
     align-items: flex-start;
     display: flex;
@@ -81,14 +28,12 @@ h1{
     justify-content: center;
     width: 50vw;
 }
-
 main p{
     color: #838383;
     font-family: 'Roboto Slab', serif;
     font-size: 15pt;
     margin: 0;
 }
-
 main div{
     align-items: flex-start;
     display: flex;
@@ -97,7 +42,6 @@ main div{
     justify-content: center;
     width: 50vw;
 }
-
 .info{
     display: flex;
     flex-direction: row;
@@ -105,7 +49,6 @@ main div{
     justify-content: center;
     width: 55vw;
 }
-
 .front{
     align-items: center;
     background-color: #E5E5E5;
@@ -115,7 +58,6 @@ main div{
     justify-content: space-evenly;
     width: 20vw;
 }
-
 .back{
     align-items: center;
     background-color: #E5E5E5;
@@ -125,7 +67,6 @@ main div{
     justify-content: space-evenly;;
     width: 20vw;
 }
-
 .foto{
     align-items: center;
     background-color: #4CA0FF;
@@ -134,38 +75,24 @@ main div{
     justify-content: flex-start;
     width: 20vw;
 }
-
 main a{
     color: #838383;
     font-family: 'Roboto Slab', serif;
     font-size: 10pt;
     text-decoration: none;
 }
-
 main a:hover{
     font-weight: bold;
 }
-
 main h3{
     color: #4CA0FF;
     font-family: 'Roboto Slab', serif;
     margin: 0;
 }
-
 .menina{
     height: 35vh;
     width: 20vw;
 }
-
-footer{
-    align-items: center;
-    background-color: #271A5B;
-    display: flex;
-    height: 20vh;
-    position: relative;
-    width: 100%;
-}
-
 .girlfooter{
     bottom: 0;
     height: auto;
@@ -173,52 +100,6 @@ footer{
     padding-left: 20px;
     width: 9vw;
 }
-
-.footer{
-    align-items: center;
-    display: flex;
-    height: 15vh;
-    font-size: 10pt;
-    justify-content: flex-end;
-    position: relative;
-    width: 30%;
-}
-
-footer h2{
-    border-right: 1px solid white;
-    color: white;
-    font-size: 25pt;
-    line-height: 70px;
-    padding-right: 20px;
-}
-
-.menufooter{
-    display: flex;
-    justify-content: flex-end;
-    width: 30%;
-}
-
-footer a{
-    color: white;
-    font-family: 'Roboto Slab', serif;
-    text-decoration: none;
-}
-
-footer nav{
-    display: flex;
-    flex-direction: column;
-}
-
-footer p{
-    color: white;
-    font-family: 'Roboto Slab', serif;
-}
-
-footer img{
-    height: auto;
-    width: 25px;
-}
-
 .redes{
     align-items: flex-end;
     display: flex;
@@ -227,10 +108,6 @@ footer img{
     height: auto;
     justify-content: center;
     width: 65%;
-}
-
-footer div{
-    width: 20%;
 }
 
 
