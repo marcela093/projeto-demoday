@@ -1,59 +1,9 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-
-header{
-    align-items: center;
-    border-bottom: 1px solid #AEADAD;
-    display: flex;
-    height: 10vh;
-    justify-content: space-around;
-    width: 100%;
-}
-
-header nav a:hover{
-    border-bottom: 2px solid #4CA0FF;
-    color: #4CA0FF;
-    font-weight: bold;
-    line-height: 10.3vh;
-}
-
-header nav a{
-    color: #838383;
-    font-family: 'Roboto Slab', serif;
-    font-size: 15px;
-    text-decoration: none;
-}
-
-img{
-    width: 8vw;
-}
-
 .menu{
     align-items: center;
     display: flex;
     height: 11vh;
     justify-content: space-evenly;
     width: 50vw;
-}
-
-header button{
-    background-color: white;
-    border-radius: 5px;
-    border: 2px solid #4CA0FF;
-    color: #4CA0FF;
-    font-family: 'Roboto Slab', serif;
-    font-size: 10pt;
-    font-weight: bolder;
-    height: 7vh;
-    width: 10vw;
-}
-
-header button:hover{
-    background-color: #4CA0FF;
-    cursor: pointer;
-    color: white;
 }
 
 main{
