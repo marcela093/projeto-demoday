@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;    
 }
+a {
+    text-decoration: none;
+}
 header {
     background-color: white;
     border-bottom: 1px solid rgba(174, 173, 173, 0.78);
@@ -21,7 +24,6 @@ header nav li {
     list-style-type: none;
 }
 header nav ul li a {    
-    text-decoration: none;
     font-family: 'Roboto Slab', serif;
     font-size: 15px;
     color: #838383;
@@ -54,11 +56,9 @@ header .button:hover {
     transition: .2s;
 }
 header .button a { 
-    text-decoration: none;
     color: #4CA0FF;    
 }
 header .button:hover a { 
-    text-decoration: none;
     color: white;
 }
 /* footer */
@@ -102,8 +102,8 @@ footer {
     padding-right: 60px;
     text-align: center;
 }
-div a {
-    text-decoration: none;
+div a img {
+    padding: 0px 8px;
 }
 .branco {
     color: white;
