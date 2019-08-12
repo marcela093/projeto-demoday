@@ -21,17 +21,19 @@
             <h3>Aqui você encontra os depoimentos <br>compartilhado por outras mulheres. </h3>
         </article>
         <section class="depoimentos">
-            <div class="flex-conteiner">
-                <img src="../static/images/Aspas.png" alt="">
-                <p class="pseudo">
-                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum maiores libero voluptate impedit
-                    temporibus cum provident iste doloremque est, mollitia voluptatum nihil sequi corrupti cupiditate
-                    recusandae totam doloribus nemo saepe".
-                </p>
-                <h4>Empresa X</h4>
-                <p class="sem-pseudo">15/07/2019</p>
-            </div>
-            <div class="flex-conteiner">
+
+            {% for depoimento in depoimentos %}
+                <div class="flex-conteiner">
+                    <img src="../static/images/Aspas.png" alt="">
+                    <p class="pseudo">
+                        {{ depoimento.avaliacao|linebreaksbr }}
+                    </p>
+                    <h4> {{ depoimento.empresa }} </h4>
+                    <p class="sem-pseudo"> {{ depoimento.data }} </p>
+                </div>
+            {% endfor %}
+
+                <!-- <div class="flex-conteiner">
                 <img src="../static/images/Aspas.png" alt="">
                 <p class="pseudo">
                     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum maiores libero voluptate impedit
@@ -40,17 +42,7 @@
                 </p>
                 <h4>Empresa Y</h4>
                 <p class="sem-pseudo">15/07/2019</p>
-            </div>
-            <div class="flex-conteiner">
-                    <img src="../static/images/Aspas.png" alt="">
-                <p class="pseudo">
-                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum maiores libero voluptate impedit
-                    temporibus cum provident iste doloremque est, mollitia voluptatum nihil sequi corrupti cupiditate
-                    recusandae totam doloribus nemo saepe".
-                </p>
-                <h4>Empresa Z</h4>
-                <p class="sem-pseudo">15/07/2019</p>
-            </div>
+            </div> -->
         </section>
         <section class="nav-empresas">
             <nav class="mais-recentes">
