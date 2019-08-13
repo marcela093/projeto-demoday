@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from .models import Depoimento
+from .forms import DepoimentoForm
 from django.utils import timezone
 # Create your views here.
 
@@ -21,7 +22,17 @@ def depoimentos_empresas(request):
     return render(request, 'depoimentos-empresa.html', {'depoimentos': depoimentos})
 
 def avaliacao(request):
-    return render(request, 'avaliacao.html')
+    if request.method == "POST":
+        form = DepoimentoForm(request.POST)
+        if form.is_valid():
+            depoimento = form.save(commit=False)
+            depoimento.data = timezone.now()
+            depoimento.save()
+            return redirect('depoimentos.html') 
+            # , pk=post.pk
+    else:
+         form = DepoimentoForm()
+    return render(request, 'avaliacao.html', {'form': form})
     
 def login(request):
     return render(request, 'login.html')

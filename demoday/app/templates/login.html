@@ -17,11 +17,11 @@
                 Conta pra gente como<br>
                 tem sido essa experiência!
             </h3>
-            <form action="" class="form">
+            <form method="POST" class="form"> 
                 <div class="form-left">
                     <label>
                         <p>Nome</p>
-                        <input type="text">
+                        <input type="text"> 
                     </label>
                     <label>
                         <p>E-mail</p>
@@ -47,6 +47,13 @@
                     </label>
                 </div>
             </form>
+            <!--  -->
+            <form method="post">
+                {% csrf_token %}
+                {{ form }}
+                <input type="submit" value="Submit" />
+            </form>
+            <!--  -->
             <div class="termos-de-uso">
                 <input type="checkbox">
                 <p>Eu concordo com os <a href="#">termos de uso</a></p>
