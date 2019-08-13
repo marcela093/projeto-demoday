@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from .models import Depoimento
 from django.utils import timezone
 # Create your views here.
@@ -16,11 +16,9 @@ def depoimentos(request):
     depoimentos = Depoimento.objects.filter(data__lte=timezone.now()).order_by('data') 
     return render(request, 'depoimentos.html', {'depoimentos': depoimentos})
 
-# def depoimentos(request):
-#     return render(request, 'depoimentos.html')
-
 def depoimentos_empresas(request):
-    return render(request, 'depoimentos-empresa.html')
+    depoimentos = Depoimento.objects.filter(data__lte=timezone.now()).order_by('data') 
+    return render(request, 'depoimentos-empresa.html', {'depoimentos': depoimentos})
 
 def avaliacao(request):
     return render(request, 'avaliacao.html')

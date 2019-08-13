@@ -24,7 +24,7 @@ urlpatterns = [
     path('cursos/', cursos),
     path('eventos/', eventos),
     path('depoimentos/', depoimentos),
-    path('depoimentos-empresas/', depoimentos_empresas),
+    path('depoimentos/empresa', depoimentos_empresas),
     path('login/', login),
     path('avaliacao/', avaliacao),
     path('base/', base),

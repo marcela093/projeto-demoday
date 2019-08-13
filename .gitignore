@@ -1,4 +1,4 @@
 env
 __pycache__
 vscode
-sqlite3
+db.sqlite3
