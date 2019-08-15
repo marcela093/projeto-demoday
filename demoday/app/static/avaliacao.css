@@ -37,8 +37,6 @@
 }
 
 .formulario{
-    display: flex;
-    justify-content: space-between;
     margin-top: 40px;
     margin-bottom: 40px;
     font-family: 'Roboto Slab', serif;
@@ -57,12 +55,7 @@
 
 .formulario .form-left-avaliacao{
     margin-top: 15px;
-}
-
-.formulario .tracado-lateral-azul{
-    border-right: 2px solid #4CA0FF;
-    padding-right: 120px
-}
+} 
 
 .formulario .form-left-avaliacao .nome-empresa{
     border-top: none;
@@ -79,4 +72,17 @@
 
 .formulario .form-left-avaliacao #ultimoItem{
     margin-top: 30px
+}
+
+.formulario .form-espaco-anterior{
+    margin-top: 30px;
+}
+
+.formulario #ultimo-form{
+    font-family: 'Roboto Slab', serif;    
+}
+
+.formulario #texto-cinza{
+    font-family: 'Roboto Slab', serif;    
+    opacity: .5;
 }
