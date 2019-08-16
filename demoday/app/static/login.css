@@ -75,7 +75,7 @@ header nav ul li a:hover{
     font-family: 'Ramaraja', serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 70px;
+    font-size: 50pt;
     color: #374760;
     line-height: 70px;
 }
@@ -92,7 +92,7 @@ header nav ul li a:hover{
 .pagina-login article h3{
     font-family: 'Roboto Slab', serif;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 15pt;
     line-height: 35px;
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 30px;

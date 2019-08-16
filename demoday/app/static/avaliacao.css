@@ -7,7 +7,7 @@
 /*Conteúdo*/
 .pagina-avaliacao .article-avaliacao{
     margin: 76px 200px;
-    padding: 60px 120px;
+    padding: 0px 120px;
 }
 
 .pagina-avaliacao .article-avaliacao h2{
@@ -30,7 +30,7 @@
 .pagina-avaliacao .article-avaliacao h3{
     font-family: 'Roboto Slab', serif;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 15pt;
     line-height: 35px;
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 30px;

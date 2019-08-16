@@ -1,6 +1,6 @@
 .pagina-depoimentos article{
     margin: 76px 200px;
-    padding: 60px 120px;
+    padding: 0px 120px;
 }
 
 .pagina-depoimentos #avaliacao{
@@ -15,9 +15,8 @@
     font-family: 'Ramaraja', serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 70px;
+    font-size: 50pt;
     color: #374760;
-    line-height: 70px;
 }
 
 .pagina-depoimentos article h2::after{
@@ -32,7 +31,7 @@
 .pagina-depoimentos article h3{
     font-family: 'Roboto Slab', serif;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 15pt;
     line-height: 35px;
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 30px;

@@ -1,7 +1,7 @@
 .menu{
     align-items: center;
     display: flex;
-    height: 11vh;
+    height: 10vh;
     justify-content: space-evenly;
     width: 50vw;
 }
@@ -10,18 +10,25 @@ main{
     align-items: center;
     display: flex;
     flex-direction: column;
-    
+    height: 400px;
     justify-content: center;
     width: 100%;
 }
 
 h1{
-    border-bottom: 5px solid #4CA0FF;
     color: #374760;
     font-family: 'Ramaraja', serif;
     font-size: 50pt;
     font-weight: normal;
-    line-height: 70px; 
+}
+
+h1::after{
+    content: " ";
+    display: block;
+    border: 3px solid #4CA0FF;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .eventos{
@@ -53,27 +60,21 @@ main div{
     justify-content: center;
     width: 50vw;
 }
-.calendario{
-    display: flex;
-    align-items: center;
-}
 
-main img{
-    height: auto;
-    width: 25vw;
-}
 
 section{
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    height: 400px;
+    justify-content: flex-start;
     width: 100%;
 }
 .info{
     background-color: #E5E5E5;
     border-radius: 20px;
     width: 50vw;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,4 +107,5 @@ section a{
 
 section a:hover{
     font-weight: bold;
+    color: #4CA0FF;
 }

@@ -14,12 +14,19 @@ main{
     width: 100%;
 }
 h1{
-    border-bottom: 5px solid #4CA0FF;
     color: #374760;
     font-family: 'Ramaraja', serif;
     font-size: 50pt;
     font-weight: normal;
-    line-height: 70px;
+}
+h1::after{
+    content: " ";
+    display: block;
+    border: 3px solid #4CA0FF;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 }
 .cursos{
     align-items: flex-start;
