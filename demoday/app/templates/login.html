@@ -14,8 +14,8 @@
             <h2> Compartilhe <br> com a gente</h2>
             <h3>
                 Trabalha com programação?<br>
-                Conta pra gente como<br>
-                tem sido essa experiência!
+                Conta pra gente como
+                tem <br> sido essa experiência!
             </h3>
             <form method="POST" class="form"> 
                 <div class="form-left">
@@ -47,13 +47,7 @@
                     </label>
                 </div>
             </form>
-            <!--  -->
-            <form method="post">
-                {% csrf_token %}
-                {{ form }}
-                <input type="submit" value="Submit" />
-            </form>
-            <!--  -->
+           
             <div class="termos-de-uso">
                 <input type="checkbox">
                 <p>Eu concordo com os <a href="#">termos de uso</a></p>

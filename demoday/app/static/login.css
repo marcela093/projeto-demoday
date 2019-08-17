@@ -92,9 +92,8 @@ header nav ul li a:hover{
 .pagina-login article h3{
     font-family: 'Roboto Slab', serif;
     font-weight: normal;
-    font-size: 15pt;
-    line-height: 35px;
-    color: rgba(0, 0, 0, 0.5);
+    font-size: 14pt;
+    color: #838383;
     margin-bottom: 30px;
 }
 

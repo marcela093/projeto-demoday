@@ -13,7 +13,7 @@
 .pagina-avaliacao .article-avaliacao h2{
     font-family: 'Ramaraja', serif;
     font-weight: normal;
-    font-size: 70px;
+    font-size: 50pt;
     color: #374760;
     line-height: 70px;
 }
@@ -30,15 +30,13 @@
 .pagina-avaliacao .article-avaliacao h3{
     font-family: 'Roboto Slab', serif;
     font-weight: normal;
-    font-size: 15pt;
-    line-height: 35px;
-    color: rgba(0, 0, 0, 0.5);
+    font-size: 14pt;
+    
+    color: #838383;
     margin-bottom: 30px;
 }
 
 .formulario{
-    display: flex;
-    justify-content: space-between;
     margin-top: 40px;
     margin-bottom: 40px;
     font-family: 'Roboto Slab', serif;
@@ -57,12 +55,7 @@
 
 .formulario .form-left-avaliacao{
     margin-top: 15px;
-}
-
-.formulario .tracado-lateral-azul{
-    border-right: 2px solid #4CA0FF;
-    padding-right: 120px
-}
+} 
 
 .formulario .form-left-avaliacao .nome-empresa{
     border-top: none;
@@ -78,5 +71,63 @@
 }
 
 .formulario .form-left-avaliacao #ultimoItem{
-    margin-top: 30px
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+.formulario .form-espaco-anterior{
+    margin-top: 30px;
+}
+
+.formulario #ultimo-form{
+    font-family: 'Roboto Slab', serif;    
+}
+
+.pen-form #penultimo-form{
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pen-form #texto-cinza{
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 10px;
+    opacity: .5;
+    color: #838383;
+}
+
+.pen-form input{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid #4CA0FF;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.pen-form input::placeholder{
+    font-family: 'Roboto Slab', serif;    
+    opacity: .5;
+}
+
+.pen-form #ultimo-form{
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 10px;
+}
+
+.pen-form button{
+    font-family: 'Roboto Slab', serif;
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: #4CA0FF;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p{
+    margin-top: 10px;
 }

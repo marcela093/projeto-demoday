@@ -39,7 +39,7 @@
 
 .pagina-depoimentos .nome-empresa{
     height: 50px;
-    width: 500px;
+    width: 418px;
     border: none;
     background-color: #E1DCDC;
 }
@@ -51,7 +51,7 @@
 
 .pagina-depoimentos .botao-lupa{
     float: right;;
-    margin-right: 161px;
+    
     background-color: #271A5B;
     height: 50px;
     width: 50px;
@@ -194,7 +194,7 @@
     text-align: center;
     margin-top: 10px;
     font-family: 'Roboto Slab', serif;
-    color: rgba(0, 0, 0, 0.400);    ]
+    color: rgba(0, 0, 0, 0.400);    
 }
 
 .pagina-depoimentos .nav-empresas{

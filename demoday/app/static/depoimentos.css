@@ -28,18 +28,18 @@
     margin-bottom: 30px;
 }
 
-.pagina-depoimentos article h3{
+.pagina-depoimentos article p{
     font-family: 'Roboto Slab', serif;
     font-weight: normal;
-    font-size: 16pt;
-    line-height: 35px;
-    color: rgba(0, 0, 0, 0.5);
+    font-size: 15pt;
+    
+    color: #838383;
     margin-bottom: 30px;
 }
 
 .pagina-depoimentos .nome-empresa{
     height: 50px;
-    width: 500px;
+    width: 498px;
     border: none;
     background-color: #E1DCDC;
 }
