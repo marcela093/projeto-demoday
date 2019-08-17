@@ -71,7 +71,8 @@
 }
 
 .formulario .form-left-avaliacao #ultimoItem{
-    margin-top: 30px
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .formulario .form-espaco-anterior{
@@ -82,7 +83,44 @@
     font-family: 'Roboto Slab', serif;    
 }
 
-.formulario #texto-cinza{
+.pen-form #penultimo-form{
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 10px;
+}
+
+.pen-form #texto-cinza{
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 10px;
+    opacity: .5;
+}
+
+.pen-form input{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid #4CA0FF;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.pen-form input::placeholder{
     font-family: 'Roboto Slab', serif;    
-    opacity: .4;
+    opacity: .5;
+}
+
+.pen-form #ultimo-form{
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 10px;
+}
+
+.pen-form button{
+    font-family: 'Roboto Slab', serif;
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: #4CA0FF;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
 }
