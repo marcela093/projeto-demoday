@@ -5,6 +5,7 @@
     justify-content: space-evenly;
     width: 50vw;
 }
+
 main{
     align-items: center;
     display: flex;
@@ -27,7 +28,7 @@ h1::after{
     margin-top: 20px;
     margin-bottom: 30px;
 }
-}
+
 .cursos{
     align-items: flex-start;
     display: flex;

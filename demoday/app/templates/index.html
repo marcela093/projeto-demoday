@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block extra_head %}
 <link rel="stylesheet" href="../static/style.css" />
 {% endblock %} 
@@ -7,145 +7,68 @@
 {% block title %} <GirlscanCode/> {% endblock %} 
 
 {% block content %}
-<div class="zoom80">
-  <div id="frase">
-    <h1 class="titulo azul fz7">
-      &ltGirls<span class="titulo cinza-claro fz7">can</span>Code/&gt
-    </h1>
-  </div>
-  <div style="margin-bottom: 15px">
-    <span class="roboto cinza-escuro" style="font-size: 15pt"
-      >O projeto que reúne conteúdo para mostrar <br> que o mundo da tecnologia
-      também pertence às mulheres.
-    </span>
-  </div>
-
-  <img
-    src="../static/images/mulher1.png"
-    alt="mulher com computador"
-    style="margin-bottom: -55px; margin-top: 100px"
-  />
-
-  <main>
-    <h1
-      class="titulo azul fz5"
-      style="padding-top: 100px; margin-bottom: 100px"
-    >
-      O Projeto
-    </h1>
-
-    <div class="flex-style">
-      <a href="/eventos/" target="_blank">
-        <div class="item">
-          <div><img src="../static/images/ícones-gcc/eventos.svg" alt=""> </div>
-          <div class="item-texto">
-            <span class="titulo azul fz1">Eventos</span>
-            <br />
-            <span class="roboto cinza-escuro"
-              >Meetups e outros eventos para compartilhar experiências e fazer
-              networking.</span
-            >
-          </div>
-        </div>
-      </a>
-
-      <a href="/avaliacao/" target="_blank">
-        <div class="item">
-          <div><img src="../static/images/ícones-gcc/compartilhe.svg" alt=""></div>
-          <div class="item-texto">
-            <span class="titulo azul fz1">Compartilhe</span>
-            <br />
-            <span class="roboto cinza-escuro"
-              >Compartilhe como é trabalhar na área de TI. Sua empresa é bacana?
-              Indicaria para outras mulheres?.</span
-            >
-          </div>
-        </div>
-      </a>
-
-      <a href="/cursos/" target="_blank">
-        <div class="item">
-          <div><img class="photo" src="../static/images/ícones-gcc/cursos.svg" alt=""></div>
-          <div class="item-texto">
-            <span class="titulo azul fz1">Cursos</span>
-            <br />
-            <span class="roboto cinza-escuro"
-              >Aqui você encontra a biblioteca de cursos que indicamos para que
-              você comece a aprender a programar!.</span
-            >
-          </div>
-        </div>
-      </a>
-    </div>
-  </main>
-
-  <article class="flex-style">
-    <div id="mulheres-inspo">
-      <div
-        class="flex-style"
-        style="background-color: rgba(191, 249, 255, 0.5); height: 200px; width: 100%"
-      >
-        <div
-          class="flex-style"
-          style="align-items: center; flex-direction: column"
-        >
-          <p class="titulo azul fz5">Ada Lovelace</p>
-          <p class="roboto cinza-escuro">
-            10 de dezembro, 1815 - 27 de novembro, 1852
-          </p>
-        </div>
-      </div>
-      <div id="ada-lovelace"></div>
-      <p
-        class="roboto cinza-escuro"
-        style="font-size: 20px; text-align: justify; margin: 15px 75px 50px"
-      >
-        Diva da programação, já descrevia as operações lógicas de uma máquina
-        mais de um século antes de existir o computador como entendemos hoje.
-        Filha do romântico Lord Byron e confinada a uma sociedade que impedia
-        que mulheres estudassem em universidades, Ada apaixonou-se pela
-        matemática - e era brilhante. Trocou intensamente cartas com Charles
-        Babbage, idealizador da Máquina Analítica e publicou artigos (assinados
-        somente com suas iniciais) que expandiam as fronteiras do processamento
-        de informações.
-      </p>
-    </div>
-
-    <img
-      id="mulher-celular"
-      src="../static/images/mulher-celular.png"
-      alt="mulher com celular"
-    />
-    <div class="texto-inspo">
-      <h2 class="titulo fz5 amarelo">As mulheres que inspiram</h2>
-      <span class="roboto branco"
-        >A história do mundo foi contada pelos homens. Basta lembrar quantas
-        inventoras, artistas que você conhece. Mas isso nunca significou que as
-        mulheres não deram importantes contribuições a todos os campos do
-        conhecimento.</span
-      >
-    </div>
-  </article>
-
-  <section class="flex-style" style="flex-direction: column">
-    <h2 class="titulo azul fz5">Se interessou?</h2>
-    <div class="linha-azul"></div>
-    <span class="roboto cinza-escuro"
-      >Cadastre-se na nossa newsletter para ficar por dentro das novidades, é
-      rapidinho!</span
-    >
-    <br />
-    <div
-      class="flex-style"
-      style="box-shadow: 0px 4px 15px rgba(148, 53, 53, 0.25)"
-    >
-      <input
-        class="roboto cinza-escuro"
-        type="email"
-        value="Insira seu e-mail"
-      />
-      <button class="roboto branco" type="submit">Enviar</button>
-    </div>
-  </section>
-</div>
+<main>
+	<div>
+		<p>Um site que reúne conteúdo para mostrar que o mundo da tecnologia também pertence às mulheres</p>
+	</div>
+	<div>
+    	<h1>&ltGirls<span>can</span>Code/&gt</h1>
+	</div>
+	<div>
+		<img src="../static/images/mulher1.png" alt="foto menina sentada">
+	</div>
+</main>
+<section>
+	<div>
+		<h2>O Projeto</h2>
+	</div>
+	<div class="quadrados">
+		<div class="info">
+			<div class="quadrado">
+				<img src="../static/images/ícones-gcc/eventos.svg" alt="desenho calendario">
+			</div>
+			<div class="paragrafo">
+				<a href="/eventos/"><p>Meetups e outros eventos para compartilharexperiências e fazer networking.</p></a> 
+			</div>
+		</div>
+		<div class="info">
+			<div class="quadrado">
+				<img src="../static/images/ícones-gcc/compartilhe.svg" alt="">
+			</div>
+			<div class="paragrafo">
+				<a href="/avaliacao/"><p>Compartilhe como é trabalhar na área da TI. Sua empresa é bacana? Indicaria para outras mulheres?</p></a>
+			</div>
+		</div>
+		<div class="info">
+			<div class="quadrado">
+				<img class="cap"  src="../static/images/ícones-gcc/cursos.svg" alt="">
+			</div>
+			<div class="paragrafo">
+				<a href="/cursos/"><p>Aqui você encontra a biblioteca de cursos que indicamos para que você comece a aprender a programar!</p></a>
+			</div>
+		</div>
+	</div>
+</section>
+<article>
+	<div class="fotos">
+		<div class="img">
+			<img src="../static/images/Mulheres_Carrossel/MULHERES01.png" alt="foto Ada">
+		</div>
+		<div>
+			<img class="menina" src="../static/images/mulher-celular.png" alt="desesenho menina">
+		</div>
+	</div>
+	<div class="texto">
+		<div class="texto1">
+			<h2>As mulheres que inspiram</h2>
+		</div>
+		<div class="texto1">
+			<p>A história do mundo foi contada pelos homens. Basta lembrar quantas
+				inventoras, artistas, que você conhece. Mas isso nunca significou que as
+				mulheres não deram importantes contribuições a todos os campos do
+				conhecimento.
+			</p>
+		</div>
+	</div>
+</article>
 {% endblock %}
