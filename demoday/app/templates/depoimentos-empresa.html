@@ -12,26 +12,28 @@
 <main class="pagina-depoimentos">
     <article>
         <h2>Depoimentos</h2>
-        <h3> Avaliações da empresa <strong>{{depoimento.empresa}}</strong></h3>
+        <h3> Avaliações da empresa <strong>ANOTHER CAT IPSUM</strong></h3>
         <div class="avaliacao-empresa">
             <div>
                 <img class="img-logo" src="../static/images/logo.png" alt="Logo empresa">
             </div>
             {% for depoimento in depoimentos %}
+            {% if depoimento.empresa == "Another Cat Ipsum" %}
                 <div class="avaliacao">
                     <h4> {{depoimento.empresa}} </h4>
-                    <p class="site">www.companyname.com.br</p>
+                    <p class="site">www.anothercatipsum.com.br</p>
                     <p class="p-avaliacao">Avaliação da empresa {{depoimento.empresa}}</p>
                     <div class="bullet">
-                        <p class="nota">4,0</p>
+                        <p class="nota">3,0</p>
                         <img class="rate" src="../static/images/circle-solid.svg" alt="">
                         <img class="rate" src="../static/images/circle-solid.svg" alt="">
                         <img class="rate" src="../static/images/circle-solid.svg" alt="">
                         <img class="rate" src="../static/images/circle-regular.svg" alt="">
                         <img class="rate" src="../static/images/circle-regular.svg" alt="">
-                        <p class="mulheres">50 mulheres indicaram esta empresa</p>
+                        <p class="mulheres">2 mulheres indicaram esta empresa</p>
                     </div>
                 </div>
+            {% endif %}
             {% endfor %}
         </div>
 
