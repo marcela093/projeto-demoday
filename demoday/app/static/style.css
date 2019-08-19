@@ -101,12 +101,16 @@ section h2::after{
 }
 
 .quadrado{
+    background-color: #BFF9FF;
+    border-radius: 20px;
     display: flex;
-    width:  18vw;
+    width:  14vw;
     justify-content: center;
-    align-items: flex-start;
-    height: 18vh;
+    align-items: center;
+    height: 20vh;
 }
+
+
 .info{
     background-color: white;
     height: 40vh;
@@ -120,21 +124,23 @@ section h2::after{
 }
 
 section img{
-    width: 5vw;
+    width: 4vw;
+    opacity: 0.8;
 }
 
 .cap{
-    width: 7vw;
+    width: 6vw;
 }
 
 section p{
     color: #838383;
-    font-size: 15t;
+    font-size: 13pt;
     font-family: 'Roboto Slab', serif;
     text-align: center;
 }
 
 .paragrafo{
+   margin-top: 10px;
     width: 80%;
 }
 
@@ -193,4 +199,42 @@ article p{
     color: white;
     font-family: 'Roboto Slab', serif;
     font-size: 15pt;
+}
+
+.titulo::after{
+    content: " ";
+    display: block;
+    border: 2px solid #4CA0FF;
+    width: 100px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.frase{
+    height: 15vh;
+    width: 35%;
+}
+
+.email{
+    display: flex;
+}
+
+section input{
+    background-color: #E1DCDC;
+    border: none;
+    box-shadow: 1px 1px 1px  rgb(179, 176, 176);
+    font-family: 'Roboto Slab', serif;
+    height: 5vh;
+    padding-left: 20px;
+    width: 25vw;
+}
+
+section button{
+    background-color: #271A5B;
+    border: none;
+    box-shadow: 1px 1px 1px rgb(36, 24, 83);
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    height: 5vh;
+    width: 7vw;
 }
