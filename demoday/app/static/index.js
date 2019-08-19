@@ -16,4 +16,4 @@ function trocaBanner(){
     banner.src = banners[bannerAtual];
 }
 
-setInterval(trocaBanner, 2000);
+setInterval(trocaBanner, 4000);
