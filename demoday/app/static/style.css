@@ -25,7 +25,7 @@ main div:nth-child(1){
 }
 main p{
     color: #838383;
-    font-size: 15pt;
+    font-size: 14pt;
     font-family: 'Roboto Slab', serif;
     text-align: center;
 
@@ -36,7 +36,7 @@ main p::after{
     display: block;
     border: 2px solid #4CA0FF;
     width: 100px;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-left: 200px;
 }
 
@@ -134,7 +134,7 @@ section img{
 
 section p{
     color: #838383;
-    font-size: 13pt;
+    font-size: 11pt;
     font-family: 'Roboto Slab', serif;
     text-align: center;
 }
@@ -191,14 +191,14 @@ article div:nth-child(2){
 article h2{
     color: #FFCE00;
     font-family: 'Ramaraja', serif;
-    font-size: 30pt;
+    font-size: 28pt;
     font-weight: normal;
 }
 
 article p{
     color: white;
     font-family: 'Roboto Slab', serif;
-    font-size: 13pt;
+    font-size: 15pt;
 }
 
 .titulo::after{
